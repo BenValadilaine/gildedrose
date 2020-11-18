@@ -1,0 +1,13 @@
+Tests à appliquer :
+v1. Baisser la qualité et sellIn d'items normaux
+v2. Augmenter la qualité pour Aged Brie et Backstage passes
+v3. Qualité maximum d'un produit 50
+v4. La qualité ne peut jamais être négative
+Pour Backstage passes :
+v5. Quand sellIn =< 10 : qualité =+ 2
+v6. Quand sellIn =< 5 : qualité =+ 3
+v7. Quand sellIn === 0 : qualité === 0
+--
+8. Objets Conjured : qualité =- 2
+9. sellIn toujours null et quality toujours à 80 pour Sulfuras
+
