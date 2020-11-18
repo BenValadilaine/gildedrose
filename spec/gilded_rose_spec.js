@@ -1,4 +1,5 @@
-let { Shop, Item } = require('../src/gilded_rose.js');
+let { Shop } = require('../src/shop.js');
+let { Item } = require('../src/item.js');
 describe("GildedRose shop manager", () => {
   let listItems;
 
